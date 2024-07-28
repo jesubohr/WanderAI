@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Wander AI: Smart Travel Planner
+WanderAI is an AI-powered travel planning app that creates personalized itineraries based on user preferences, travel history, and real-time data. It helps users discover new destinations, plan their trips efficiently, and manage their travel expenses.
 
-## Getting Started
 
-First, run the development server:
+## Features and Main Functionalities
+- **Destination Recommendations**
+  - **Personalized Suggestions:** Recommend destinations based on user preferences, travel history, and interests.
+  - **Trending Destinations:** Highlight popular and trending travel spots based on global travel data.
+  - **Local Insights:** Provide information about local culture, events, and hidden gems.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Itinerary Creation**
+  - **Customizable Itineraries:** Allow users to create and customize their travel itineraries with suggested activities, attractions, and dining options.
+  - **Day-by-Day Plans:** Generate detailed day-by-day plans, including travel time, distances, and map integration.
+  - **Collaboration:** Enable users to share itineraries with friends and family and collaborate on trip planning.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-Time Updates**
+  - **Travel Alerts:** Provide real-time updates on travel conditions, flight status, weather forecasts, and local advisories.
+  - **Schedule Adjustments:** Automatically adjust itineraries based on real-time changes and user input.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Expense Tracking and Budget Management**
+  - **Budget Planner:** Help users set and manage their travel budget, including accommodation, transportation, meals, and activities.
+  - **Expense Tracking:** Track expenses during the trip and provide summaries and insights.
+  - **Cost-saving Tips:** Offer tips and deals to save money on flights, accommodations, and activities.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Booking Integration**
+  - **Flight and Hotel Bookings:** Integrate with booking platforms for seamless flight, hotel, and car rental reservations.
+  - **Activity Reservations:** Allow users to book activities, tours, and dining reservations directly through the app.
 
-## Learn More
+- **Social Features**
+  - **Travel Community:** Connect users with a community of travelers to share experiences, tips, and recommendations.
+  - **Reviews and Ratings:** Provide access to reviews and ratings of destinations, accommodations, and activities.
 
-To learn more about Next.js, take a look at the following resources:
+- **Offline Access**
+  - **Offline Maps and Guides:** Allow users to download maps and travel guides for offline use.
+  - **Emergency Contacts:** Provide access to local emergency contacts and embassy information.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **AI-Powered Travel Assistant**
+  - **Chatbot Support:** Offer 24/7 chatbot support for travel-related inquiries and assistance.
+  - **Personalized Recommendations:** Continuously learn from user interactions to improve and personalize recommendations.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Technologies Used
+- **Frontend:** Next.js, React, Tailwind CSS, Mapbox
+- **Backend:** Node.js, PostgreSQL, Redis
+- **AI/ML:** Vercel AI SDK, OpenAI
+- **APIs:** Google Maps, Amadeus, Skyscanner, TripAdvisor
+- **Authentication:** NextAuth.js, OAuth
+- **Deployment:** Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Team Members
+- **Jesus Borrero** - Software Developer & Co-Founder
+- **Sergio Mancilla** - Software Developer & Co-Founder
+
+
+## License
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
