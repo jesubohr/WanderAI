@@ -1,0 +1,7 @@
+# Ignore artifacts:
+build
+dist
+public
+.next
+pnpm-lock.yaml
+README.md
